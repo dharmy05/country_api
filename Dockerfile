@@ -1,7 +1,6 @@
-# Use PHP 8.1 with Apache
 FROM php:8.1-apache
 
-# Install system dependencies and PHP extensions
+# Install system dependencies and PHP extensions needed by the app
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
         libzip-dev zip unzip \
@@ -12,22 +11,20 @@ RUN apt-get update \
     && a2enmod rewrite \
     && rm -rf /var/lib/apt/lists/*
 
-# Set Apache document root to public/
+# Set the document root to the public/ folder
 ENV APACHE_DOCUMENT_ROOT /var/www/html/public
 RUN sed -ri "s!/var/www/html!${APACHE_DOCUMENT_ROOT}!g" /etc/apache2/sites-available/000-default.conf \
     && sed -ri "s!/var/www/html!${APACHE_DOCUMENT_ROOT}!g" /etc/apache2/apache2.conf
 
-# Copy application source code
+# Copy application source
 COPY . /var/www/html
 
-# Ensure permissions are correct
+# Fix permissions for Apache
 RUN chown -R www-data:www-data /var/www/html \
     && chmod -R 755 /var/www/html
 
-# Expose HTTP port
 EXPOSE 80
 
-# Use a simple entrypoint
 COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh
 

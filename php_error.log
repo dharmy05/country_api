@@ -37,3 +37,5 @@
 [29-Oct-2025 21:48:13 Europe/Berlin] DEBUG >>> step 6: commit done
 [29-Oct-2025 21:48:13 Europe/Berlin] DEBUG >>> GD not available; writing text summary instead of PNG
 [29-Oct-2025 21:48:13 Europe/Berlin] DEBUG >>> step 7: summary generated
+[29-Oct-2025 21:49:01 Europe/Berlin] DEBUG >>> Method: GET | Path: /Public/index.php
+[29-Oct-2025 21:49:01 Europe/Berlin] DEBUG >>> inside refresh route

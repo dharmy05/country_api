@@ -26,3 +26,14 @@
 [29-Oct-2025 20:42:41 Europe/Berlin] DEBUG >>> step 7: summary generated
 [29-Oct-2025 20:43:21 Europe/Berlin] DEBUG >>> Method: GET | Path: /Public/index.php/countries
 [29-Oct-2025 20:43:21 Europe/Berlin] DEBUG >>> inside refresh route
+[29-Oct-2025 21:37:58 Europe/Berlin] DEBUG >>> Method: GET | Path: /Public/index.php
+[29-Oct-2025 21:48:09 Europe/Berlin] DEBUG >>> Method: POST | Path: /Public/index.php/countries/refresh
+[29-Oct-2025 21:48:09 Europe/Berlin] DEBUG >>> inside refresh route
+[29-Oct-2025 21:48:09 Europe/Berlin] DEBUG >>> step 1: starting external fetch
+[29-Oct-2025 21:48:09 Europe/Berlin] DEBUG >>> step 1: starting external fetch
+[29-Oct-2025 21:48:11 Europe/Berlin] DEBUG >>> step 2: countries fetched: 250
+[29-Oct-2025 21:48:12 Europe/Berlin] DEBUG >>> step 3: exchange rates fetched
+[29-Oct-2025 21:48:12 Europe/Berlin] DEBUG >>> step 4: transaction started
+[29-Oct-2025 21:48:13 Europe/Berlin] DEBUG >>> step 6: commit done
+[29-Oct-2025 21:48:13 Europe/Berlin] DEBUG >>> GD not available; writing text summary instead of PNG
+[29-Oct-2025 21:48:13 Europe/Berlin] DEBUG >>> step 7: summary generated

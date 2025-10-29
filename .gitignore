@@ -1,0 +1,14 @@
+# Local environment file
+.env
+
+# Cache and runtime
+/cache/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.log
+
+# Dev helpers
+/scripts/
+

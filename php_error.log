@@ -1,0 +1,16 @@
+[29-Oct-2025 19:57:31 Europe/Berlin] DEBUG >>> Method: GET | Path: /Public/index.php
+[29-Oct-2025 19:57:31 Europe/Berlin] DEBUG >>> inside refresh route
+[29-Oct-2025 19:58:40 Europe/Berlin] DEBUG >>> Method: POST | Path: 
+[29-Oct-2025 19:58:40 Europe/Berlin] DEBUG >>> inside refresh route
+[29-Oct-2025 19:59:30 Europe/Berlin] DEBUG >>> Method: POST | Path: /Public/countries/refresh
+[29-Oct-2025 19:59:30 Europe/Berlin] DEBUG >>> inside refresh route
+[29-Oct-2025 20:00:11 Europe/Berlin] DEBUG >>> Method: POST | Path: /Public/index.php/countries/refresh
+[29-Oct-2025 20:00:11 Europe/Berlin] DEBUG >>> inside refresh route
+[29-Oct-2025 20:00:11 Europe/Berlin] DEBUG >>> step 1: starting external fetch
+[29-Oct-2025 20:00:11 Europe/Berlin] DEBUG >>> step 1: starting external fetch
+[29-Oct-2025 20:00:12 Europe/Berlin] DEBUG >>> step 2: countries fetched: 250
+[29-Oct-2025 20:00:14 Europe/Berlin] DEBUG >>> step 3: exchange rates fetched
+[29-Oct-2025 20:00:14 Europe/Berlin] DEBUG >>> step 4: transaction started
+[29-Oct-2025 20:00:14 Europe/Berlin] DEBUG >>> step 6: commit done
+[29-Oct-2025 20:00:14 Europe/Berlin] DEBUG >>> GD not available; writing text summary instead of PNG
+[29-Oct-2025 20:00:14 Europe/Berlin] DEBUG >>> step 7: summary generated
